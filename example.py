@@ -25,6 +25,18 @@ while True:
         text = "Looking right"
     elif gaze.is_left():
         text = "Looking left"
+    elif gaze.is_up():
+        text = "Looking up"
+    elif gaze.is_up():
+        text = "Looking down"
+    elif gaze.is_up_right():
+        text = "Looking up and right"
+    elif gaze.is_up_left():
+        text = "Looking up and left"
+    elif gaze.is_down_right():
+        text = "Looking down and right"
+    elif gaze.is_down_left():
+        text = "Looking down and left"
     elif gaze.is_center():
         text = "Looking center"
 

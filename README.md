@@ -1,3 +1,7 @@
+# Fork information
+
+This is a fork, destined to test the original GazeTracking library. Example was updated to recognize up and down directions. VS Code environment for Conda was added.
+
 # Gaze Tracking
 
 ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)
