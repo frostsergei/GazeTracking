@@ -22,7 +22,7 @@ def start(update: Update, context: CallbackContext) -> None:
 
 def help_command(update: Update, context: CallbackContext) -> None:
     """Send a message when the command /help is issued."""
-    update.message.reply_text('Я отслеживаю зрачки на фотографиях и определяю направления взгляда. Протестируйте меня :)\n\n/help - вывод справки\n/echo - пинг\n\nОтправьте мне ссылки на картинки, которые хотите обработать, или просто отправьте изображения.')
+    update.message.reply_text('Я отслеживаю зрачки на фотографиях и определяю направление взгляда. Протестируйте меня если сможете :)\n\n/help - вывод справки\n/echo - пинг\n\nОтправьте мне ссылки на картинки, которые хотите обработать, или просто отправьте изображения.')
 
 
 def echo(update: Update, context: CallbackContext) -> None:

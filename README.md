@@ -2,18 +2,23 @@
 
 This is a fork, destined to test the original GazeTracking library. Example was updated to recognize up and down directions. VS Code environment for Conda was added.
 
-##Telegram bot for images testing
+## Telegram bot for images testing
 
 To use bot, it is required to install some additional libs and create new file for a project.
 New libs:
-- python-telegram-bot
-- scikit-image
+- python-telegram-bot (bot api package)
+- scikit-image (is used for downloading images from links)
 
-It is necessary to create '.env' file, which contains telegram bot token to be used. In order to get token use @BotFather in Telegram.
+It is necessary to create `.env` file, which contains telegram bot token to be used. In order to get token use @BotFather in Telegram.
 
-Supported image inputs:
-- Direct photo upload
-- Link upload through /link command.
+Supported image input options:
+- Direct photos upload
+- Uploading images via links sending
+
+Additional commands:
+- `/start` - greetings and help demonstration
+- `/help` - comands list (help demonstration)
+- `/echo` - reply with 'input' message content (similar to ping network functions)
 
 # Gaze Tracking
 
